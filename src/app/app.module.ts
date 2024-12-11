@@ -33,6 +33,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
 import { LeafletModule } from '@bluehalo/ngx-leaflet';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 import { TjsMultiplicationComponent } from './tjs-multiplication/tjs-multiplication.component';
 import { SfeAdditionComponent } from './sfe-addition/sfe-addition.component';
@@ -98,6 +99,7 @@ import { MmAdditionComponent } from './mm-addition/mm-addition.component';
     MatFormFieldModule,
     MatInputModule,
     LeafletModule,
+    MatProgressBarModule
   ],
 
   providers: [provideAnimationsAsync()],
