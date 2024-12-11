@@ -41,6 +41,7 @@ import { SkaAdditionComponent } from './ska-addition/ska-addition.component';
 import { FeeDeliveryComponent } from './fee-delivery/fee-delivery.component';
 import { CommentBoxComponent } from './comment-box/comment-box.component';
 import { AoAdditionComponent } from './ao-addition/ao-addition.component';
+import { MmAdditionComponent } from './mm-addition/mm-addition.component';
 
 
 @NgModule({
@@ -68,6 +69,7 @@ import { AoAdditionComponent } from './ao-addition/ao-addition.component';
     FeeDeliveryComponent,
     CommentBoxComponent,
     AoAdditionComponent,
+    MmAdditionComponent,
   ],
   imports: [
     BrowserModule,
